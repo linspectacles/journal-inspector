@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-journal-inspector",
+  "name": "Journal Inspector",
+  "version": "1.0.0",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "order": 460,
+  "entrypoint": "journal_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only systemd journal inspector with complete grouped metadata, table-only/lazy details options, Journal Entries and Boot List acquisition, explicit acquisition-integrity reporting, malformed-JSON accounting, priority controls, disk-usage reporting, and Suite-safe applet shortcuts.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true,
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/journal-inspector"
+}
